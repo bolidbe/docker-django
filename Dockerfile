@@ -17,8 +17,8 @@ RUN apt-get update \
 
 RUN pip install --no-cache-dir lxml==4.5.0
 RUN pip install --no-cache-dir numpy==1.16.2
-RUN pip install --no-cache-dir pandas==0.24.1
-RUN pip install --no-cache-dir sqlalchemy==1.3.0
+RUN pip install --no-cache-dir pandas==1.4.4
+RUN pip install --no-cache-dir sqlalchemy==1.4.40
 
 # Install utilities for chrome
 RUN apt update && \
