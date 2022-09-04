@@ -7,13 +7,13 @@ Django image for Docker Hub.
 To build the image, use:
 
 ```
-$ docker build -t gabrielsebag/django .
+$ docker build -t bolid/django .
 ```
 
 To push the image, use:
 
 ```
-$ docker push gabrielsebag/django:latest
+$ docker push bolid/django:latest
 ```
 
 ## License
